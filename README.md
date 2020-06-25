@@ -40,7 +40,7 @@ Requests the number of factors that (positive integer only).
 Requests the number of levels (or treatments) within the *nth* factor. 
 
 ## Name of the levels in factor *n*
-Requests the name of each level of the *n^th^* factor.
+Requests the name of each level of the *nth* factor.
 
 # Contributing
 This is my first repo. I'm still becoming acquainted with GitHub, feel free to provide suggestions if you are interested in doing so. 
