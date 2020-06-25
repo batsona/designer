@@ -37,7 +37,7 @@ Requests the number of replicates (positive integers only) in the design.
 Requests the number of factors that (positive integer only).
 
 ## Number of levels within factor *n*
-Requests the number of levels (or treatments) within the *n^th^* factor. 
+Requests the number of levels (or treatments) within the *nth* factor. 
 
 ## Name of the levels in factor *n*
 Requests the name of each level of the *n^th^* factor.
