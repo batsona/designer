@@ -1,0 +1,49 @@
+# designer.py
+designer.py is a Python script for designing factorial completely random design and randomized complete block design trials.
+
+# Introduction
+Designing an experiment requires randomization of treatments to experimental units. The purpose of this script is to take user-supplied input to design
+
+# Dependencies
+Python libraries:
+- numpy  (1.18.5)
+- pandas (1.0.5)
+
+# Usage
+Once the script is in your directory of choice, run the script with the following command in a terminal emulator.
+
+```{bash}
+python designer.py
+```
+# Expected output
+Two files:
+- *prefix*\_plot\_map.csv: Plot map with a randomization for each treatment combination.
+- *prefix*\_manual\_input\_sheet.csv: Each experimental unit is arranged in a tidy format (long). This should be useful for recording data manually and for inputting data on the computer.
+
+**NOTE:** This script, as of now, creates the above files with these prefixes **without** checking for the presence of a preexisting file. Therefore, the output of this file will overwrite any files with matching names in the same directory.
+
+# The script will prompt the user with a series of questions:
+
+## Prefix
+Requests a prefix (no spaces) for the files. An example prefix would be 'experiment1', or '2020.06.25_trial'. This prefix will be appended at the beginning of the output file names.
+
+## CRD vs. RCBD
+This script will *only* perform randomizations for completely random designs (CRDs) and randomized complete block designs (RCBD). This question expects a string.
+
+## Number of replicates
+Requests the number of replicates (positive integers only) in the design.
+
+## Number of factors
+Requests the number of factors that (positive integer only).
+
+## Number of levels within factor *n*
+Requests the number of levels (or treatments) within the *n^th^* factor. 
+
+## Name of the levels in factor *n*
+Requests the name of each level of the *n^th^* factor.
+
+# Contributing
+This is my first repo. I'm still becoming acquainted with GitHub, feel free to provide suggestions if you are interested in doing so. 
+
+# License
+[GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
