@@ -1,10 +1,14 @@
 # designer.py
-designer.py is a Python script for designing factorial completely random design and randomized complete block design trials.
+designer.py is a Python script for designing factorial completely randomzed design and randomized complete block design trials.
 
 # Introduction
-Designing an experiment requires randomization of treatments to experimental units. In some cases, it is useful to block treatments to reduce variability among experimental units. The purpose of this script is to take user-supplied input (see below) and output a 'plot plan' and a data recording sheet.
+Designing an experiment requires the experimenter to randomize the assignment of treatments to experimental units. In some cases, it is useful to block treatments to reduce variability among experimental units. The latter is especially true for experiments in environments where there is sufficient heterogeneity that can influence a measured response. 
+
+The purpose of this script is to take user-supplied input (see below) and output a 'plot plan' and a data recording sheet. 
 
 # Dependencies
+Written in Python3.
+
 Python libraries:
 - numpy  (1.18.5)
 - pandas (1.0.5)
